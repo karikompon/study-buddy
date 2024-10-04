@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: token-service
+server:
+  port: 8082
+clients:
+  keycloak:
+    url: http://localhost:9090
+    realm: sekai
